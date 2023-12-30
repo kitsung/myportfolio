@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Game</title>
+    <link rel="stylesheet" href="pokerStyle.css">
+    <script defer src="pokerScript.js"></script>
+</head>
+<body>
+    <h1 class="title">HTML, CSS, JAVASCRIPT POKER</h1>
+
+    <div class="container" id="start">
+        <div class="slot">
+            <img src="" alt="first card" id="cardOne" class="display">
+        </div>
+        <div class="slot">
+            <img src="" alt="second card" id="cardTwo" class="display">
+        </div>
+        <div class="slot">
+            <img src="" alt="third card" id="cardThree" class="display">
+        </div>
+        <div class="slot">
+            <img src="" alt="forth card" id="cardFour" class="display">
+        </div>
+        <div class="slot">
+            <img src="" alt="fifth card" id="cardFive" class="display">
+        </div>
+    </div>
+
+    <section id="instructions">
+        <P>Click On The Cards You Want To Keep Then Press "DEAL NEXT HAND".<p>
+        <p>Make A Hand At The End Of The Next Hand To Win!</p>
+    </section>
+
+    <button id="dealButton">DEAL NEXT HAND</button>   
+
+    <h2 class="winningHand" id="yourHand">Your Winning hand is</h2>
+    
+    <button id="restartButton">NO HAND MADE - PLAY AGAIN?</button>
+
+    <div id="hiddenGame">
+        <h2 id="secretGame">SECRET GAME UNLOCKED</h2>
+        <div id="highlowContainer">
+            <section>
+                <h2>Card 1</h2>
+                <img src="" alt="first card" id="imageOne" class="highlow">
+            </section>
+            <section>
+                <h2>Card 2</h2>
+                <img src="" alt="second card" id="imageTwo" class="highlow">         
+            </section>
+        </div>
+        <p>Is Card 2 Higher Or Lower Than Card 1?</p>
+        <div id="hiloSelections">
+            <button id="high">HIGHER</button>
+            <button id="low">LOWER</button>
+            <button id="next">YOU GUESSED CORRECTLY! - SHOW NEXT CARD</button>            
+        </div>
+    </div>
+</body>
+</html>

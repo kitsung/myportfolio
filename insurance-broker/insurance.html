@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insurance screener to check for bona-fide subcontractor rules.">
+    <title>Broker Assist</title>
+    <link rel="stylesheet" href="insurance.css">
+</head>
+<body>
+    <div id="description">
+        <a id="disclaimer" href="readme.html">READ THIS BEFORE USE</a>
+    </div>
+
+    <h1>Broker Assist</h1>
+    <p>My Client</p>
+    <input type="text" name="client" id="client">
+    <p>Sales £</p>
+    <input type="number" name="sales" id="sales">
+    <p>Payments to Bona-Fide Subs £</p>
+    <input type="number" name="bfsc" id="bfsc">
+    <p>Number of Individual Bona-Fide Subs (Firms) Per Year</p>
+    <input type="number" name="nobfsc" id="nobfsc" min="0">
+
+    <div id="tradeList">
+        <div class="trades">
+            <select name="selectTradeOne" id="selectTradeOne">
+            <option>Trade 1</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeTwo" id="selectTradeTwo">
+                <option>Trade 2</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeThree" id="selectTradeThree">
+                <option>Trade 3</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeFour" id="selectTradeFour">
+                <option>Trade 4</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeFive" id="selectTradeFive">
+                <option>Trade 5</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeSix" id="selectTradeSix">
+                <option>Trade 6</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeSeven" id="selectTradeSeven">
+                <option>Trade 7</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeEight" id="selectTradeEight">
+                <option>Trade 8</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeNine" id="selectTradeNine">
+                <option>Trade 9</option>
+            </select>
+        </div>
+        <div class="trades">
+            <select name="selectTradeTen" id="selectTradeTen">
+                <option>Trade 10</option>
+            </select>
+        </div>
+    </div>
+    <button type="submit">Go to market</button>
+
+    <div class="results" id="results">
+        
+    </div>
+    <script src="insurance.js"></script>
+</body>
+</html>
