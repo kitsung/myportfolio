@@ -366,7 +366,7 @@ startingHand()
 function highLow(handsForWin){
     //Displays hidden game//
     const showHiddenGame = document.getElementById("hiddenGame");
-    showHiddenGame.style.display = "block"
+    showHiddenGame.style.display = "inline-block"
     //Produce cards for high low game//
     const suits = ["C","D","H","S"]
     const numbers = ["2","3","4","5","6","7","8","9","10","J","Q","K"]
