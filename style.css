@@ -86,6 +86,14 @@ p {
     color: #302718;
 }
 
+#commentary:active {
+    color: #699e3c;
+}
+
+#github:active {
+    color: #699e3c;
+}
+
 .grid-item {
     padding-bottom: 50px;
 }
@@ -108,6 +116,12 @@ button {
     border-radius: 10px;
     background-color: #699e3c;
     color: #302718;
+    border: #302718 solid 2.5px;
+}
+
+button:active {
+    background-color: #302718;
+    color: #699e3c;
 }
 
 footer > p {
