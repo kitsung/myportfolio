@@ -131,6 +131,10 @@ footer > p {
     color: #699e3c;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 @media (max-width: 1350px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
@@ -162,9 +166,6 @@ footer > p {
     p {
         width: 100%;
     }
-    ul {
-        padding-left: 10px;
-    }
     .grid-item > h2 {
         text-align: left;
         padding: 0;
@@ -185,9 +186,6 @@ footer > p {
     .grid-item > h2 {
         text-align: left;
         padding: 0;
-    }
-    ul {
-        padding-left: 10px;
     }
 }
 
@@ -214,9 +212,6 @@ footer > p {
         text-align: left;
         padding: 0;
     }
-    ul {
-        padding-left: 10px;
-    }
     footer > p{
         text-align: center;
         font-size: 0.45rem;
@@ -237,9 +232,6 @@ footer > p {
         align-items: center;
         padding: 10px;
         line-height: 1.35em;
-    }
-    ul {
-        padding-left: 10px;
     }
     img {
         height: 60%;
@@ -279,9 +271,6 @@ footer > p {
     footer > p{
         text-align: center;
         font-size: 0.45rem;
-    }
-    ul {
-        padding-left: 10px;
     }
     .grid-item > h2 {
         text-align: left;

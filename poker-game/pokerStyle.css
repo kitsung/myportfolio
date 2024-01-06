@@ -20,6 +20,7 @@ body {
     letter-spacing: 3px;
     font-size: 1em;
     min-height: 965px;
+    overflow: hidden;
 }
 
 .title {
